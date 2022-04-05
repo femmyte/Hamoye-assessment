@@ -1,0 +1,113 @@
+.login_container {
+  width: 40vw;
+  /* height: 100vh; */
+  /* height: 200px; */
+  margin: auto;
+  /* background: rgba(101, 43, 145, 0.86); */
+  margin-top: 4em;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  padding-bottom: 0.8em;
+}
+.login_wrapper {
+  padding-top: 3em;
+  width: 70%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.login_wrapper h2 {
+  margin-bottom: 2em;
+}
+label {
+  font-size: 1.2em;
+  margin-bottom: 3rem;
+}
+.signup_input,
+.signup_btn {
+  margin-top: 0.5em;
+  margin: auto;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  /* text-outline: 0 0 #000; */
+  color: #652b91;
+  outline-style: none;
+  border: none;
+}
+.signup_btn {
+  /* width: 100%;
+  /* height: 30px; *
+  margin: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  margin-top: 1em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  color: #652b91;
+  padding: 0.5em;
+  border: none; */
+}
+.signup_btn:hover {
+  background-color: #652b91;
+  color: #fff;
+}
+/* BEGINNING OF Login VALIDATION */
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+}
+/* END OF Login VALIDATION */
