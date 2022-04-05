@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/hamoye-assessment/static/css/main.ebc60807.css",
+    "main.js": "/hamoye-assessment/static/js/main.a2c943d3.js",
+    "index.html": "/hamoye-assessment/index.html",
+    "main.ebc60807.css.map": "/hamoye-assessment/static/css/main.ebc60807.css.map",
+    "main.a2c943d3.js.map": "/hamoye-assessment/static/js/main.a2c943d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebc60807.css",
+    "static/js/main.a2c943d3.js"
+  ]
+}
